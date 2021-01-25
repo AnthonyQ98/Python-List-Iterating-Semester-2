@@ -56,8 +56,8 @@ print(("-" * 10) + "Summary" + ("-" * 10))
 # AVERAGE SALE CALCULATION
 average_sales = total_sales / num_salespeople
 
-print("Total sales        : €", sales_total)
-print("Average sales      : €", average_sales)
+print("Total sales        : €", round(sales_total, 2))
+print("Average sales      : €", round(average_sales, 2))
 print("Maximum Sale       : €", max(total_sales_list))
 print("Minimum Sale       : €", min(total_sales_list))
 
