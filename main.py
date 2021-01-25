@@ -40,6 +40,7 @@ print(numbers)
 """
 
 # EXERCISE 3
+"""
 sales_total = 0
 total_sales_list = []
 num_salespeople = int(input("Number of salespeople: "))
@@ -60,6 +61,7 @@ print("Total sales        : €", round(sales_total, 2))
 print("Average sales      : €", round(average_sales, 2))
 print("Maximum Sale       : €", max(total_sales_list))
 print("Minimum Sale       : €", min(total_sales_list))
+"""
 
 
 
