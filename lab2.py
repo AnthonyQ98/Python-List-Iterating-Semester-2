@@ -1,3 +1,12 @@
+"""
+Anthony Quinn
+25 Jan 2021
+Week 1 Lab 2 Exercises
+Lists
+"""
+# Exercise 1
+
+"""
 candidates = []
 votes = []
 percent_list = []
@@ -27,5 +36,34 @@ most_votes_index = votes.index(max(votes))
 least_votes_index = votes.index(min(votes))
 print("\nWinner:         ", candidates[most_votes_index])
 print("Lowest Votes:   ", candidates[least_votes_index])
+"""
+
+# Exercise 2
+hours = []
+days = 0
+total = 0
+hours_worked = 1
+counter = 0
+over_six_hours = 0
+while counter < 5:
+    hours_worked = int(input("Hours worked: "))
+    if hours_worked < 9 and hours_worked > 0:
+        counter += 1
+        total += hours_worked
+        hours.append(hours_worked)
+        if hours_worked > 6:
+            over_six_hours += 1
+    else:
+        print("Error: Enter a number between 0 and 9.")
+
+for i in range(5):
+    print("Day {}: ".format(i) + str(hours[i]) + " hours.")
+
+average = total / counter
+print("Average daily hours: ", round(average, 2))
+print("Total hours: ", total)
+print("Total days with more than 6 hours: ", over_six_hours)
+
+
 
 
