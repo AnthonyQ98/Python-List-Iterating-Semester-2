@@ -39,5 +39,29 @@ for x in range(len(numbers)):
 print(numbers)
 """
 
+# EXERCISE 3
+sales_total = 0
+total_sales_list = []
+num_salespeople = int(input("Number of salespeople: "))
+
+
+print("Sales Person\t\t\tSales €")
+print("-" * 32)
+for people in range(num_salespeople):
+    total_sales = float(input("Sales Person {0}:\t\t\t".format(people + 1)))
+    total_sales_list.append(total_sales)
+    sales_total += total_sales
+print(("-" * 10) + "Summary" + ("-" * 10))
+
+# AVERAGE SALE CALCULATION
+average_sales = total_sales / num_salespeople
+
+print("Total sales        : €", sales_total)
+print("Average sales      : €", average_sales)
+print("Maximum Sale       : €", max(total_sales_list))
+print("Minimum Sale       : €", min(total_sales_list))
+
+
+
 
 
