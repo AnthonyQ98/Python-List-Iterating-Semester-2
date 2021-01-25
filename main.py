@@ -25,6 +25,8 @@ print(total_rainfall)
 print(round(average_rainfall, 2))
 """
 
+# Exercise 2
+"""
 numbers = []
 
 for i in range(5):
@@ -35,6 +37,7 @@ print(numbers)
 for x in range(len(numbers)):
     numbers[x] = numbers[x] + 1
 print(numbers)
+"""
 
 
 
