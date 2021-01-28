@@ -6,7 +6,6 @@ Lists
 """
 # Exercise 1
 
-"""
 candidates = []
 votes = []
 percent_list = []
@@ -36,8 +35,8 @@ most_votes_index = votes.index(max(votes))
 least_votes_index = votes.index(min(votes))
 print("\nWinner:         ", candidates[most_votes_index])
 print("Lowest Votes:   ", candidates[least_votes_index])
-"""
 
+"""
 # Exercise 2
 hours = []
 days = 0
@@ -63,6 +62,7 @@ average = total / counter
 print("Average daily hours: ", round(average, 2))
 print("Total hours: ", total)
 print("Total days with more than 6 hours: ", over_six_hours)
+"""
 
 
 
